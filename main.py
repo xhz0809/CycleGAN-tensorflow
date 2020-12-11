@@ -1,7 +1,7 @@
 import argparse
 import os
 import tensorflow as tf
-tf.set_random_seed(19)
+tf.random.set_seed(19)
 from model import cyclegan
 
 parser = argparse.ArgumentParser(description='')
